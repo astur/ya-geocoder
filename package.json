@@ -8,5 +8,8 @@
     "geocoder"
   ],
   "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "needle": "^1.1.2"
+  }
 }
