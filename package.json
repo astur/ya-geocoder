@@ -1,0 +1,12 @@
+{
+  "name": "ya-geocoder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "yandex",
+    "geocoder"
+  ],
+  "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
+  "license": "MIT"
+}
