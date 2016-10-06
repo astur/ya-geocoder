@@ -1,12 +1,16 @@
 {
   "name": "ya-geocoder",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "yandex geocoder tool",
   "main": "index.js",
   "keywords": [
     "yandex",
     "geocoder"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astur/ya-geocoder.git"
+  },
   "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
   "license": "MIT",
   "dependencies": {
