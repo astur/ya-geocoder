@@ -1,6 +1,6 @@
 {
   "name": "ya-geocoder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "yandex geocoder tool",
   "main": "index.js",
   "keywords": [
