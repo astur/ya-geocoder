@@ -6,6 +6,9 @@ module.exports = function(address, options, callback){
     if(options.tail){
         URL = URL + options.tail;
     }
+    if(options.proxy){
+        httpOpts.proxy = options.proxy;
+    }
     needle.get(URL, httpOpts, function(err, res){
         if(err || res.body.error){
             return callback(err || res.body.error.message);
