@@ -3,6 +3,9 @@ var needle = require('needle');
 module.exports = function(address, options, callback){
     var URL = 'https://geocode-maps.yandex.ru/1.x/?geocode=%s&kind=house&format=json&results=1'.replace('%s', encodeURIComponent(address));
     var httpOpts = {};
+    if(options.tail){
+        URL = URL + options.tail;
+    }
     needle.get(URL, httpOpts, function(err, res){
         if(err || res.body.error){
             return callback(err || res.body.error.message);
