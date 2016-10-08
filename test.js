@@ -1,6 +1,6 @@
 var getGeocode = require('.');
 
-getGeocode('балашиха, просп. Ленина, 1', function(err, res){
+getGeocode('балашиха, просп. Ленина, 1', {}, function(err, res){
     if(err) console.log(err);
     else console.log(JSON.stringify(res, null, 4));
 });
